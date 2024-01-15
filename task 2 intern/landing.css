@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-image: url("hotel2.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} 
+.main{
+    max-width: 1100px;
+    margin: auto;
+    margin-bottom: 70px;
+    text-align: right;
+
+}
+.active{
+    background-color: wheat;
+    color: black;
+    transition: 0.6s ease;
+}
+.active :hover{
+    background-color: black;
+    color: beige ;
+}
+.messi{
+    background-color: wheat;
+    color: black;
+    transition: 0.6s ease;
+
+}
+
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+    border: 1px solid transparent;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+ul li a:hover{
+    background-color: wheat;
+    color: black;
+    transition: 0.6s ease;
+}
+.logo img{
+    
+        height: 50px;
+        width: 100px;
+      
+}
+.logo {
+    padding-top: 15px;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    height: 80px;
+  }
+.center_text{
+     margin-top: 150px;
+     margin-left: 500px;
+}
+
+
+
+h1{
+    text-decoration-color: black;
+    font-size: 50px;
+    color: rgba(29, 170, 222, 0.827) ;
+    font-family: inherit;
+    justify-content: center;
+}
+#bt1{
+    border: 1px solid white;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgb(220, 184, 158);
+}
+#bt2{
+    border: 1px solid white;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgb(220, 184, 158);
+}
+#bt1:hover{
+    background-color: wheat;
+    color: black;
+    transition: 0.6s ease;
+}
+
+#bt2:hover{
+    background-color: wheat;
+    color: black;
+    transition: 0.6s ease;
+}
